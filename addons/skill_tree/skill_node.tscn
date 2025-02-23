@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cl8oqkqne3fq4"]
+
+[ext_resource type="Script" path="res://addons/skill_tree/skill_node.gd" id="1_rq1t6"]
+
+[node name="Skill Node" type="Button"]
+offset_right = 109.0
+offset_bottom = 43.0
+text = "My Skill"
+script = ExtResource("1_rq1t6")
