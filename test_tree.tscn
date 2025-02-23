@@ -34,7 +34,7 @@ offset_right = 589.0
 offset_bottom = 174.0
 text = "Skill 2"
 skill_name = "Skill 2"
-active = true
+active = false
 next = [NodePath("../Third Skill"), NodePath("../Fourth Skill")]
 
 [node name="Third Skill" parent="." instance=ExtResource("2_dvers")]
@@ -45,6 +45,7 @@ offset_right = 479.0
 offset_bottom = 260.0
 text = "Skill 3"
 skill_name = "Skill 3"
+active = false
 
 [node name="Fourth Skill" parent="." node_paths=PackedStringArray("next") instance=ExtResource("2_dvers")]
 layout_mode = 0
@@ -54,6 +55,7 @@ offset_right = 697.0
 offset_bottom = 262.0
 text = "Skill 4"
 skill_name = "Skill 4"
+active = false
 next = [NodePath("../Fifth Skill")]
 
 [node name="Fifth Skill" parent="." node_paths=PackedStringArray("next") instance=ExtResource("2_dvers")]
@@ -64,6 +66,7 @@ offset_right = 697.0
 offset_bottom = 344.0
 text = "Skill 5"
 skill_name = "Skill 5"
+active = false
 next = [NodePath("../Sixth Skill")]
 
 [node name="Sixth Skill" type="Button" parent="."]
@@ -72,6 +75,7 @@ offset_left = 590.0
 offset_top = 387.0
 offset_right = 697.0
 offset_bottom = 432.0
-text = "My Skill"
+text = "Skill 6"
 script = ExtResource("3_3o2nn")
 skill_name = "Skill 6"
+active = false
