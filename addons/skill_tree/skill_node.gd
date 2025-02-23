@@ -10,10 +10,10 @@ class_name SkillNode
 @export var sellable := true
 ##If true, marks your skill as unlocked by default.
 @export var default := false
+##Set to true to make your skill immediately purchasable, otherwise keep false.
+@export var active := false
 ##Place all skills that immediately follow this skill on your tree in this array.
 @export var next : Array[SkillNode]
-
-var active := false
 
 signal purchased
 signal sold
